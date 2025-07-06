@@ -1,6 +1,6 @@
 {
 	"name": "@actuatorjs/actuatorjs",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Core interfaces and classes for actuatorjs ecosystem",
 	"type": "module",
 	"main": "dist/cjs/index.js",
@@ -17,8 +17,8 @@
 	],
 	"scripts": {
 		"prepare": "husky",
-		"build:esm": "bun build src/index.ts --outdir dist/esm --format esm",
-		"build:cjs": "bun build src/index.ts --outdir dist/cjs --format cjs",
+		"build:esm": "bun build src/index.ts --outdir dist/esm --format esm --minify",
+		"build:cjs": "bun build src/index.ts --outdir dist/cjs --format cjs --minify",
 		"build:types": "tsc",
 		"build": "bun run build:esm && bun run build:cjs && bun run build:types",
 		"test": "bun test"
