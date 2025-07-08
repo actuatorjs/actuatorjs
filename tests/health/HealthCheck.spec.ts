@@ -12,7 +12,7 @@ describe("HealthCheck", () => {
 		expect(result).toBeDefined();
 		expect(result.status).toBe("UP");
 		const upIndicatorsMap = new Map(
-			upIndicators.map((indicator) => [indicator.name, indicator]),
+			upIndicators.map((indicator) => [indicator.getName(), indicator]),
 		);
 		for (const [name, _indicator] of upIndicatorsMap) {
 			expect(result.components).toContainKey(name);
@@ -25,15 +25,15 @@ describe("HealthCheck", () => {
 		expect(result).toBeDefined();
 		expect(result.status).toBe("DOWN");
 		const upIndicatorsMap = new Map(
-			upIndicators.map((indicator) => [indicator.name, indicator]),
+			upIndicators.map((indicator) => [indicator.getName(), indicator]),
 		);
 		for (const [name, _indicator] of upIndicatorsMap) {
 			expect(result.components).toContainKey(name);
 			expect(result.components[name]).toBeDefined();
 			expect(result.components[name].status).toBe("UP");
 		}
-		expect(result.components).toContainKey(downIndicator.name);
-		expect(result.components[downIndicator.name]).toBeDefined();
-		expect(result.components[downIndicator.name].status).toBe("DOWN");
+		expect(result.components).toContainKey(downIndicator.getName());
+		expect(result.components[downIndicator.getName()]).toBeDefined();
+		expect(result.components[downIndicator.getName()].status).toBe("DOWN");
 	});
 });
