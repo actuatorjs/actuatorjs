@@ -1,8 +1,15 @@
 {
 	"name": "@actuatorjs/actuatorjs",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Core interfaces and classes for actuatorjs ecosystem",
 	"license": "Apache-2.0",
+	"keywords": [
+		"actuator",
+		"healthcheck",
+		"nodejs",
+		"bun",
+		"express"
+	],
 	"type": "module",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
@@ -18,11 +25,15 @@
 	],
 	"scripts": {
 		"prepare": "husky",
-		"build:esm": "bun build src/index.ts --outdir dist/esm --format esm --minify",
-		"build:cjs": "bun build src/index.ts --outdir dist/cjs --format cjs --minify",
+		"build:esm": "bun build src/index.ts --outdir dist/esm --format esm --minify --target node",
+		"build:cjs": "bun build src/index.ts --outdir dist/cjs --format cjs --minify --target node",
 		"build:types": "tsc",
-		"build": "bun run build:esm && bun run build:cjs && bun run build:types",
+		"build:cli": "bun build bin/generate-info.ts --outfile dist/bin/generate-info.js --minify --target=node",
+		"build": "bun run build:esm && bun run build:cjs && bun run build:types && bun run build:cli",
 		"test": "bun test"
+	},
+	"bin": {
+		"generate-info": "./dist/bin/generate-info.js"
 	},
 	"lint-staged": {
 		"*.{js,ts,json}": [

@@ -22,3 +22,8 @@ This library has no bindings to automatically register routes in express, bun, o
 For now, you need to manually create your `HealthCheck`.
 
 You can find a simple express server using this library in the example project provided in [examples](https://github.com/actuatorjs/examples).
+
+## Currently supported
+Here's a list of the currently supported features:
+- HealthChecks
+- Info returning global project details (git, build, os, process).
