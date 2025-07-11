@@ -1,0 +1,10 @@
+{
+	"position": 4,
+	"label": "Guides",
+	"link": {
+		"type": "generated-index",
+		"title": "Guides",
+		"description": "✨ Learn the basics of ActuatorJS !",
+		"slug": "/guides"
+	}
+}
