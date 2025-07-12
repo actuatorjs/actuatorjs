@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 id: info
 title: InformationChecks
 pagination_label: InformationChecks

@@ -50,7 +50,7 @@ const config: Config = {
 			items: [
 				{
 					type: "docSidebar",
-					sidebarId: "tutorialSidebar",
+					sidebarId: "docs",
 					position: "left",
 					label: "Docs",
 				},
@@ -121,6 +121,22 @@ const config: Config = {
 			darkTheme: prismThemes.dracula,
 		},
 	} satisfies Preset.ThemeConfig,
+	plugins: [
+		[
+			"docusaurus-plugin-typedoc",
+			{
+				entryPoints: ["../src/index.ts"],
+				tsconfig: "../tsconfig.json",
+				out: "docs/api",
+				sidebar: {
+					autoConfiguration: true,
+					typescript: true,
+					pretty: true,
+				},
+				readme: "none",
+			},
+		],
+	],
 };
 
 export default config;

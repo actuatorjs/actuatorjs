@@ -1,9 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 id: examples
 title: Examples
 pagination_label: Examples
-pagination_next: null
 ---
 
 For the list of all examples using different frameworks, runtimes, etc, refer to [this github repository](https://github.com/actuatorjs/examples).

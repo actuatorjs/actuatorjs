@@ -6,6 +6,7 @@
 		"declaration": true,
 		"outDir": "dist/esm",
 		"esModuleInterop": true,
+		"skipLibCheck": true,
 		"strict": true
 	},
 	"include": ["src"],
