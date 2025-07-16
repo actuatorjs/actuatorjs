@@ -2,48 +2,15 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 
-interface GitCommit {
-	id: string;
-	time: string;
-}
+import {
+	type ActuatorInfo,
+	type JavascriptInfo,
+	JsEngine,
+	JsRuntime,
+	UNKNOWN,
+} from "./types";
 
-interface GitInfo {
-	branch: string;
-	commit: GitCommit;
-}
-
-interface BuildInfo {
-	name: string;
-	version: string;
-}
-
-interface OSInfo {
-	name: string;
-	version: string;
-	arch: string;
-}
-
-interface ProcessMemory {
-	heapTotal: number;
-	heapUsed: number;
-	rss: number;
-}
-
-interface ProcessInfo {
-	pid: number;
-	memory: ProcessMemory;
-	cpus: number;
-	owner?: string;
-}
-
-export interface ActuatorInfo {
-	git?: GitInfo;
-	build?: BuildInfo;
-	os: OSInfo;
-	process: ProcessInfo;
-}
-
-async function getOutDirFromPackageJson(): Promise<string> {
+export async function getOutDirFromPackageJson(): Promise<string> {
 	try {
 		const pkgJsonPath = path.resolve(process.cwd(), "package.json");
 		const pkgRaw = await fs.readFile(pkgJsonPath, "utf-8");
@@ -54,15 +21,56 @@ async function getOutDirFromPackageJson(): Promise<string> {
 	}
 }
 
-export function getRuntimeInfo(): Pick<ActuatorInfo, "os" | "process"> {
-	const osInfo: OSInfo = {
+export function getJavascriptInfo(): JavascriptInfo {
+	let runtimeName: JsRuntime = JsRuntime.Unknown;
+	let runtimeVersion = UNKNOWN;
+	let engineName: JsEngine = JsEngine.Unknown;
+	let engineVersion = UNKNOWN;
+
+	if (typeof Bun !== "undefined") {
+		runtimeName = JsRuntime.Bun;
+		runtimeVersion = Bun.version;
+		engineName = JsEngine.JavaScriptCore;
+		engineVersion = UNKNOWN;
+	} else if (
+		typeof Deno !== "undefined" &&
+		typeof Deno.version !== "undefined"
+	) {
+		runtimeName = JsRuntime.Deno;
+		runtimeVersion = Deno.version.deno;
+		engineName = JsEngine.V8;
+		engineVersion = Deno.version.v8;
+	} else if (typeof process !== "undefined" && process.versions?.node) {
+		runtimeName = JsRuntime.Node;
+		runtimeVersion = process.version;
+		engineName = JsEngine.V8;
+		engineVersion = process.versions.v8;
+	}
+
+	return {
+		runtime: {
+			name: runtimeName,
+			version: runtimeVersion,
+		},
+		engine: {
+			name: engineName,
+			version: engineVersion,
+		},
+	};
+}
+
+export function getRuntimeInfo(): Pick<
+	ActuatorInfo,
+	"os" | "process" | "javascript"
+> {
+	const osInfo = {
 		name: os.type(),
 		version: os.release(),
 		arch: os.arch(),
 	};
 
 	const memory = process.memoryUsage();
-	const processInfo: ProcessInfo = {
+	const processInfo = {
 		pid: process.pid,
 		memory: {
 			heapTotal: memory.heapTotal,
@@ -72,9 +80,12 @@ export function getRuntimeInfo(): Pick<ActuatorInfo, "os" | "process"> {
 		cpus: os.cpus().length,
 	};
 
+	const javascriptInfo = getJavascriptInfo();
+
 	return {
 		os: osInfo,
 		process: processInfo,
+		javascript: javascriptInfo,
 	};
 }
 

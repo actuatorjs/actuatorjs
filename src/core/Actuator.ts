@@ -1,5 +1,6 @@
 import type { HealthCheck, HealthCheckResult } from "../health/HealthCheck";
-import { type ActuatorInfo, getInfo } from "../info/InfoCheck";
+import { getInfo } from "../info/InfoCheck";
+import type { ActuatorInfo } from "../info/types";
 
 export class Actuator {
 	private healthCheck: HealthCheck;
