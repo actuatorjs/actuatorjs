@@ -15,7 +15,10 @@ export default function HomeHero() {
 				</div>
 
 				<div className={styles.buttons}>
-					<a className="button button--primary" href="/docs/main/introduction">
+					<a
+						className="button button--primary"
+						href="/actuatorjs/docs/main/introduction"
+					>
 						Read the Docs
 					</a>
 					<a

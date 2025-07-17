@@ -1,6 +1,6 @@
 # Interface: HealthCheckResult
 
-Defined in: [health/HealthCheck.ts:4](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthCheck.ts#L4)
+Defined in: [health/HealthCheck.ts:4](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/health/HealthCheck.ts#L4)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [health/HealthCheck.ts:4](https://github.com/actuatorjs/actuatorjs/b
 
 > **components**: `Record`\<`string`, [`HealthResult`](HealthResult.md)\>
 
-Defined in: [health/HealthCheck.ts:6](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthCheck.ts#L6)
+Defined in: [health/HealthCheck.ts:6](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/health/HealthCheck.ts#L6)
 
 ***
 
@@ -16,4 +16,4 @@ Defined in: [health/HealthCheck.ts:6](https://github.com/actuatorjs/actuatorjs/b
 
 > **status**: [`HealthStatus`](../type-aliases/HealthStatus.md)
 
-Defined in: [health/HealthCheck.ts:5](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthCheck.ts#L5)
+Defined in: [health/HealthCheck.ts:5](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/health/HealthCheck.ts#L5)

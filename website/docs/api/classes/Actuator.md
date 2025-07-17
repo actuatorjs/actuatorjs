@@ -1,6 +1,6 @@
 # Class: Actuator
 
-Defined in: [core/Actuator.ts:5](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/core/Actuator.ts#L5)
+Defined in: [core/Actuator.ts:5](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/core/Actuator.ts#L5)
 
 ## Constructors
 
@@ -8,7 +8,7 @@ Defined in: [core/Actuator.ts:5](https://github.com/actuatorjs/actuatorjs/blob/8
 
 > **new Actuator**(`healthCheck`): `Actuator`
 
-Defined in: [core/Actuator.ts:8](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/core/Actuator.ts#L8)
+Defined in: [core/Actuator.ts:8](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/core/Actuator.ts#L8)
 
 #### Parameters
 
@@ -26,7 +26,7 @@ Defined in: [core/Actuator.ts:8](https://github.com/actuatorjs/actuatorjs/blob/8
 
 > **getHealth**(): `Promise`\<[`HealthCheckResult`](../interfaces/HealthCheckResult.md)\>
 
-Defined in: [core/Actuator.ts:12](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/core/Actuator.ts#L12)
+Defined in: [core/Actuator.ts:12](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/core/Actuator.ts#L12)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [core/Actuator.ts:12](https://github.com/actuatorjs/actuatorjs/blob/
 
 > **getInfo**(): `Promise`\<`ActuatorInfo`\>
 
-Defined in: [core/Actuator.ts:16](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/core/Actuator.ts#L16)
+Defined in: [core/Actuator.ts:16](https://github.com/actuatorjs/actuatorjs/blob/64baddb9a0ce51aa12b7b5f27d1deac02ba881d9/src/core/Actuator.ts#L16)
 
 #### Returns
 
