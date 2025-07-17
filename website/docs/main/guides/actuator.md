@@ -16,7 +16,7 @@ To use it, you will need to instantiante all the components that are used intern
 The `getHealth()` method returns a promise of the health result.
 Depending on how you defined your healthchecks and healthindicators.
 
-For more information on healthchecks and healthindicators, check out [HealthChecks](/docs/guides/health).
+For more information on healthchecks and healthindicators, check out [HealthChecks](/docs/main/guides/health).
 
 Here's an example of a failing healthcheck with multiple healthindicators:
 
@@ -60,7 +60,7 @@ Here's an example of a succesful healthcheck:
 
 The `getInfo()` method returns a promise of the application global informations.
 
-For more details on how that works, check out [InformationChecks](/docs/guides/info).
+For more details on how that works, check out [InformationChecks](/docs/main/guides/info).
 
 Depending on your config and what you generated before running the app, you should get an output similar to this:
 

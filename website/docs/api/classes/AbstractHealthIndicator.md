@@ -1,6 +1,6 @@
 # Class: `abstract` AbstractHealthIndicator
 
-Defined in: [health/AbstractHealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/AbstractHealthIndicator.ts#L4)
+Defined in: [health/AbstractHealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/AbstractHealthIndicator.ts#L4)
 
 ## Implements
 
@@ -12,7 +12,7 @@ Defined in: [health/AbstractHealthIndicator.ts:4](https://github.com/actuatorjs/
 
 > **new AbstractHealthIndicator**(`name`): `AbstractHealthIndicator`
 
-Defined in: [health/AbstractHealthIndicator.ts:6](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/AbstractHealthIndicator.ts#L6)
+Defined in: [health/AbstractHealthIndicator.ts:6](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/AbstractHealthIndicator.ts#L6)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [health/AbstractHealthIndicator.ts:6](https://github.com/actuatorjs/
 
 > `abstract` **check**(): `Promise`\<[`HealthResult`](../interfaces/HealthResult.md)\>
 
-Defined in: [health/AbstractHealthIndicator.ts:12](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/AbstractHealthIndicator.ts#L12)
+Defined in: [health/AbstractHealthIndicator.ts:12](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/AbstractHealthIndicator.ts#L12)
 
 #### Returns
 
@@ -46,7 +46,7 @@ Defined in: [health/AbstractHealthIndicator.ts:12](https://github.com/actuatorjs
 
 > **getName**(): `string`
 
-Defined in: [health/AbstractHealthIndicator.ts:9](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/AbstractHealthIndicator.ts#L9)
+Defined in: [health/AbstractHealthIndicator.ts:9](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/AbstractHealthIndicator.ts#L9)
 
 #### Returns
 

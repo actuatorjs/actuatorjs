@@ -1,6 +1,6 @@
 {
 	"name": "@actuatorjs/actuatorjs",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Core interfaces and classes for actuatorjs ecosystem",
 	"license": "Apache-2.0",
 	"keywords": [

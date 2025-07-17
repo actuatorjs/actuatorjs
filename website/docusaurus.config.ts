@@ -80,15 +80,15 @@ const config: Config = {
 					items: [
 						{
 							label: "Introduction",
-							to: "/docs/intro",
+							to: "/docs/main/introduction",
 						},
 						{
 							label: "Installation",
-							to: "/docs/install",
+							to: "/docs/main/install",
 						},
 						{
 							label: "Examples",
-							to: "/docs/examples",
+							to: "/docs/main/examples",
 						},
 					],
 				},
