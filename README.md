@@ -1,6 +1,7 @@
 # ActuatorJs
 
 This library attempts to rewrite most of Spring Boot Actuator library for the Javascript/Typescript ecosystem.
+The docs can be found at [https://actuatorjs.github.io/actuatorjs/](https://actuatorjs.github.io/actuatorjs/).
 
 ## How to install
 
@@ -24,6 +25,8 @@ For now, you need to manually create your `HealthCheck`.
 You can find a simple express server using this library in the example project provided in [examples](https://github.com/actuatorjs/examples).
 
 ## Currently supported
+
 Here's a list of the currently supported features:
+
 - HealthChecks
 - Info returning global project details (git, build, os, process).

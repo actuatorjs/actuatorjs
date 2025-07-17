@@ -6,12 +6,8 @@ const responses = {
 	health: {
 		status: "UP",
 		components: {
-			"abstract-postgres": {
-				status: "UP",
-			},
-			"simple-postgres": {
-				status: "UP",
-			},
+			"abstract-postgres": { status: "UP" },
+			"simple-postgres": { status: "UP" },
 		},
 	},
 	info: {
@@ -68,14 +64,22 @@ export default function ActuatorTabs() {
 			<div className={styles.tabs}>
 				<button
 					type="button"
-					className={activeTab === "health" ? styles.activeTab : ""}
+					className={
+						activeTab === "health"
+							? "button button--primary"
+							: "button button--secondary button--outline"
+					}
 					onClick={() => setActiveTab("health")}
 				>
 					Health
 				</button>
 				<button
 					type="button"
-					className={activeTab === "info" ? styles.activeTab : ""}
+					className={
+						activeTab === "info"
+							? "button button--primary"
+							: "button button--secondary button--outline"
+					}
 					onClick={() => setActiveTab("info")}
 				>
 					Info

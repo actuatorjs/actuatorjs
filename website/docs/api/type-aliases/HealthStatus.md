@@ -2,4 +2,4 @@
 
 > **HealthStatus** = `"UP"` \| `"DOWN"`
 
-Defined in: [health/HealthResult.ts:1](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthResult.ts#L1)
+Defined in: [health/HealthResult.ts:1](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthResult.ts#L1)

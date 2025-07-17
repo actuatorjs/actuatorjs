@@ -2,7 +2,7 @@
 
 > **getOutDirFromPackageJson**(): `Promise`\<`string`\>
 
-Defined in: [info/InfoCheck.ts:13](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/info/InfoCheck.ts#L13)
+Defined in: [info/InfoCheck.ts:13](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/info/InfoCheck.ts#L13)
 
 ## Returns
 

@@ -1,6 +1,6 @@
 # Interface: HealthResult
 
-Defined in: [health/HealthResult.ts:3](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthResult.ts#L3)
+Defined in: [health/HealthResult.ts:3](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthResult.ts#L3)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [health/HealthResult.ts:3](https://github.com/actuatorjs/actuatorjs/
 
 > `optional` **details**: `Record`\<`string`, `any`\>
 
-Defined in: [health/HealthResult.ts:5](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthResult.ts#L5)
+Defined in: [health/HealthResult.ts:5](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthResult.ts#L5)
 
 ***
 
@@ -16,4 +16,4 @@ Defined in: [health/HealthResult.ts:5](https://github.com/actuatorjs/actuatorjs/
 
 > **status**: [`HealthStatus`](../type-aliases/HealthStatus.md)
 
-Defined in: [health/HealthResult.ts:4](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthResult.ts#L4)
+Defined in: [health/HealthResult.ts:4](https://github.com/actuatorjs/actuatorjs/blob/8b7e2319af7ba0265c8e0f4f52bb60d39b682c66/src/health/HealthResult.ts#L4)
