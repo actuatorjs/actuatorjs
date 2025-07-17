@@ -1,9 +1,9 @@
 # Function: getRuntimeInfo()
 
-> **getRuntimeInfo**(): `Pick`\<[`ActuatorInfo`](../interfaces/ActuatorInfo.md), `"os"` \| `"process"`\>
+> **getRuntimeInfo**(): `Pick`\<`ActuatorInfo`, `"os"` \| `"process"` \| `"javascript"`\>
 
-Defined in: [info/InfoCheck.ts:57](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/info/InfoCheck.ts#L57)
+Defined in: [info/InfoCheck.ts:62](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/info/InfoCheck.ts#L62)
 
 ## Returns
 
-`Pick`\<[`ActuatorInfo`](../interfaces/ActuatorInfo.md), `"os"` \| `"process"`\>
+`Pick`\<`ActuatorInfo`, `"os"` \| `"process"` \| `"javascript"`\>

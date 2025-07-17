@@ -1,0 +1,31 @@
+.container {
+	border-radius: 6px;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.tabs {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.tabs button {
+	padding: 0.5rem 1rem;
+	background: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.activeTab {
+	background-color: #0250c5;
+	color: white;
+	border-color: #0250c5;
+}
+
+.endpoint {
+	margin-bottom: 0.5rem;
+	font-size: 0.95rem;
+}

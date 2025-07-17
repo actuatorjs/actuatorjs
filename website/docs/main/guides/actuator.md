@@ -66,30 +66,40 @@ Depending on your config and what you generated before running the app, you shou
 
 ```json
 {
-  "git": {
-    "branch": "main",
-    "commit": {
-      "id": "1867031",
-      "time": "2025-07-09T23:44:57+02:00"
-    }
+  git: {
+   branch: "main",
+   commit: {
+    id: "81d5453",
+    time: "2025-07-10T00:57:28+02:00",
+   },
   },
-  "build": {
-    "name": "express-actuatorjs-app",
-    "version": "0.0.1"
+  build: {
+   name: "express-actuatorjs-app",
+   version: "0.0.1",
   },
-  "os": {
-    "name": "Linux",
-    "version": "5.15.167.4-microsoft-standard-WSL2",
-    "arch": "x64"
+  os: {
+   name: "Windows_NT",
+   version: "10.0.19045",
+   arch: "x64",
   },
-  "process": {
-    "pid": 1,
-    "memory": {
-      "heapTotal": 4344832,
-      "heapUsed": 4516782,
-      "rss": 69554176
-    },
-    "cpus": 4
+  process: {
+   pid: 6288,
+   memory: {
+    heapTotal: 10780672,
+    heapUsed: 9518928,
+    rss: 55115776,
+   },
+   cpus: 4,
+  },
+  javascript: {
+   runtime: {
+    name: "Deno",
+    version: "2.4.2",
+   },
+   engine: {
+    name: "V8",
+    version: "13.7.152.14-rusty",
+   },
   }
 }
 ```

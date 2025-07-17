@@ -1,6 +1,6 @@
 # Class: HealthCheck
 
-Defined in: [health/HealthCheck.ts:9](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/HealthCheck.ts#L9)
+Defined in: [health/HealthCheck.ts:9](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/HealthCheck.ts#L9)
 
 ## Constructors
 
@@ -8,7 +8,7 @@ Defined in: [health/HealthCheck.ts:9](https://github.com/actuatorjs/actuatorjs/b
 
 > **new HealthCheck**(`healthIndicators`): `HealthCheck`
 
-Defined in: [health/HealthCheck.ts:12](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/HealthCheck.ts#L12)
+Defined in: [health/HealthCheck.ts:12](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/HealthCheck.ts#L12)
 
 #### Parameters
 
@@ -26,7 +26,7 @@ Defined in: [health/HealthCheck.ts:12](https://github.com/actuatorjs/actuatorjs/
 
 > **getHealth**(): `Promise`\<[`HealthCheckResult`](../interfaces/HealthCheckResult.md)\>
 
-Defined in: [health/HealthCheck.ts:16](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/HealthCheck.ts#L16)
+Defined in: [health/HealthCheck.ts:16](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/HealthCheck.ts#L16)
 
 #### Returns
 

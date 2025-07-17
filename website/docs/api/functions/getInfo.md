@@ -1,9 +1,9 @@
 # Function: getInfo()
 
-> **getInfo**(): `Promise`\<[`ActuatorInfo`](../interfaces/ActuatorInfo.md)\>
+> **getInfo**(): `Promise`\<`ActuatorInfo`\>
 
-Defined in: [info/InfoCheck.ts:81](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/info/InfoCheck.ts#L81)
+Defined in: [info/InfoCheck.ts:92](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/info/InfoCheck.ts#L92)
 
 ## Returns
 
-`Promise`\<[`ActuatorInfo`](../interfaces/ActuatorInfo.md)\>
+`Promise`\<`ActuatorInfo`\>

@@ -1,0 +1,29 @@
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 4rem 2rem;
+	background-color: var(--ifm-background-color);
+}
+
+.inner {
+	max-width: 960px;
+	width: 100%;
+}
+
+.title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+	line-height: 1.2;
+}
+
+.tabsWrapper {
+	margin-bottom: 2rem;
+}
+
+.buttons {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}

@@ -11,11 +11,12 @@ const config: Config = {
 		v4: true,
 	},
 
-	url: "https://your-docusaurus-site.example.com",
-	baseUrl: "/",
+	url: "https://actuatorjs.github.io",
+	baseUrl: "/actuatorjs",
+	organizationName: "actuatorjs",
+	projectName: "actuatorjs",
 
-	organizationName: "facebook",
-	projectName: "docusaurus",
+	trailingSlash: false,
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -86,10 +87,6 @@ const config: Config = {
 							to: "/docs/install",
 						},
 						{
-							label: "Getting started",
-							to: "/docs/getting-started",
-						},
-						{
 							label: "Examples",
 							to: "/docs/examples",
 						},
@@ -114,7 +111,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} actuatorjs, Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} actuatorjs.`,
 		},
 		prism: {
 			theme: prismThemes.github,

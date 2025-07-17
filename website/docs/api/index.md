@@ -9,7 +9,6 @@
 
 ## Interfaces
 
-- [ActuatorInfo](interfaces/ActuatorInfo.md)
 - [HealthCheckResult](interfaces/HealthCheckResult.md)
 - [HealthIndicator](interfaces/HealthIndicator.md)
 - [HealthResult](interfaces/HealthResult.md)
@@ -21,4 +20,6 @@
 ## Functions
 
 - [getInfo](functions/getInfo.md)
+- [getJavascriptInfo](functions/getJavascriptInfo.md)
+- [getOutDirFromPackageJson](functions/getOutDirFromPackageJson.md)
 - [getRuntimeInfo](functions/getRuntimeInfo.md)

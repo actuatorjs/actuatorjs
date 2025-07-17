@@ -1,6 +1,6 @@
 # Class: SimpleHealthIndicator
 
-Defined in: [health/SimpleHealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/SimpleHealthIndicator.ts#L4)
+Defined in: [health/SimpleHealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/SimpleHealthIndicator.ts#L4)
 
 ## Implements
 
@@ -12,7 +12,7 @@ Defined in: [health/SimpleHealthIndicator.ts:4](https://github.com/actuatorjs/ac
 
 > **new SimpleHealthIndicator**(`name`, `healthFunction`): `SimpleHealthIndicator`
 
-Defined in: [health/SimpleHealthIndicator.ts:8](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/SimpleHealthIndicator.ts#L8)
+Defined in: [health/SimpleHealthIndicator.ts:8](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/SimpleHealthIndicator.ts#L8)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [health/SimpleHealthIndicator.ts:8](https://github.com/actuatorjs/ac
 
 > **check**(): `Promise`\<[`HealthResult`](../interfaces/HealthResult.md)\>
 
-Defined in: [health/SimpleHealthIndicator.ts:17](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/SimpleHealthIndicator.ts#L17)
+Defined in: [health/SimpleHealthIndicator.ts:17](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/SimpleHealthIndicator.ts#L17)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [health/SimpleHealthIndicator.ts:17](https://github.com/actuatorjs/a
 
 > **getName**(): `string`
 
-Defined in: [health/SimpleHealthIndicator.ts:13](https://github.com/actuatorjs/actuatorjs/blob/6840fb67c5d58adb0e25307e5b6fa05d6a0ee3d9/src/health/SimpleHealthIndicator.ts#L13)
+Defined in: [health/SimpleHealthIndicator.ts:13](https://github.com/actuatorjs/actuatorjs/blob/8d5b7557cd90e88d26d5c082f758a51285b865b0/src/health/SimpleHealthIndicator.ts#L13)
 
 #### Returns
 
