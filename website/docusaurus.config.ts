@@ -16,6 +16,15 @@ const config: Config = {
 	organizationName: "actuatorjs",
 	projectName: "actuatorjs",
 
+	scripts: [
+		{
+			src: "https://umami.transprot.eu/script.js",
+			async: true,
+			defer: true,
+			"data-website-id": "666350b6-f65d-4db5-975e-dd2e39d9385e",
+		},
+	],
+
 	trailingSlash: false,
 
 	onBrokenLinks: "throw",

@@ -1,6 +1,6 @@
 # Interface: HealthIndicator
 
-Defined in: [health/HealthIndicator.ts:3](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/HealthIndicator.ts#L3)
+Defined in: [health/HealthIndicator.ts:3](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthIndicator.ts#L3)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [health/HealthIndicator.ts:3](https://github.com/actuatorjs/actuator
 
 > **check**: () => `Promise`\<[`HealthResult`](HealthResult.md)\>
 
-Defined in: [health/HealthIndicator.ts:5](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/HealthIndicator.ts#L5)
+Defined in: [health/HealthIndicator.ts:5](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthIndicator.ts#L5)
 
 #### Returns
 
@@ -20,7 +20,7 @@ Defined in: [health/HealthIndicator.ts:5](https://github.com/actuatorjs/actuator
 
 > **getName**: () => `string`
 
-Defined in: [health/HealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/811cc816821da2ac29627c8cd714b1bee6f2409b/src/health/HealthIndicator.ts#L4)
+Defined in: [health/HealthIndicator.ts:4](https://github.com/actuatorjs/actuatorjs/blob/f0209262f8c8f84a7a32273f89c4339c3ebcee84/src/health/HealthIndicator.ts#L4)
 
 #### Returns
 
